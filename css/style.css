@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background: rgb(0, 8, 65);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 8, 65, 1) 35%,
+      rgba(0, 4, 36, 1) 135%
+    );
+  }
+
+  .mycontainer {
+    width: 65%;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    text-align: center;
+  }
+
+  .card{
+    background-color: #eee;
+  }
+
+  .red{
+    background-color: rgba(194, 19, 18, 0.41);
+    position: fixed;
+    display: none;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; */
+}
+
+/* Firefox */
+/* input[type=number] {
+  -moz-appearance: textfield;
+} */

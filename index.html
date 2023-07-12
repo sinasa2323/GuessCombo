@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game 2 (combo)</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <audio id="myAudio">
+      
+      <source src="Coin-mc.mp3" type="audio/mpeg">
+      
+    </audio>
+    <div class="red h-100 w-100"></div> 
+      <div class="mycontainer pt-4">
+        <div class="message mb-2 lead text-light">Guess The Password</div>
+        <div class="game"></div>
+        <div class="btn-container my-2">
+          <button class="btn btn-primary mr-1 badge-pill" type="button">Start</button>
+          <button class="btn btn-warning ml-1 badge-pill" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Guide
+          </button>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body text-left">
+              <p>please set numbers to find the combination</p>
+              <p><big class="text-success">Green</big> means Number is Correct</p>
+              <p><big class="text-danger">Red</big> means Number is Too High</p>
+              <p><big class="text-primary">Blue</big> means Number is Too Low</p>
+            </div>
+          </div>
+          <!-- <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Tooltip on right">
+            Tooltip on right
+          </button> -->
+        </div>
+        <div class="finish text-white h2"></div>
+        <div class="chest">
+          <img class="img w-100 mt-2" src="staticChest.jpg" />
+        </div>
+      </div>
+     
+  </body>
+
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
